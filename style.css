@@ -1,0 +1,33 @@
+.container{
+    width:700px;
+    background-color:aliceblue;
+    border-color:black;
+
+}
+header, footer{
+    width:600px;
+    background-color:brown;
+}
+div{
+    display:inline-block;
+    width:300px;
+    height:400px;
+    background-color:blueviolet;
+
+
+}
+span{
+    display:inline-block;
+    background-color:bisque;
+    width:50px;
+
+}
+.container, header, footer, div, span{
+    border: 2px white;
+    border-radius: 10px;
+}
+*{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
